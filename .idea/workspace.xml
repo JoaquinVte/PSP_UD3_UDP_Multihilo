@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4f9e530-8b5d-4e47-ba9d-1f6c7a17239d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="c4f9e530-8b5d-4e47-ba9d-1f6c7a17239d" name="Changes" comment="a">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/ResultadosEncuestas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/server/UDP_Encuesta_servidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/server/UDP_Encuesta_servidor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/servermultihilo/UDP_ServidorMultihiloEncuesta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/servermultihilo/UDP_ServidorMultihiloEncuesta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,15 +33,67 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/jalonso/IdeaProjects/PSP_UD3_UDP_Multihilo/src/main/java/org/example/server",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/server" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.UDP_Encuesta_cliente">
+    <configuration name="UDP_Encuesta_cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.UDP_Encuesta_cliente" />
+      <module name="PSP_UD3_UDP_Multihilo" />
+      <option name="PROGRAM_PARAMETERS" value="valencia 127.0.0.1 8000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UDP_Encuesta_servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.server.UDP_Encuesta_servidor" />
+      <module name="PSP_UD3_UDP_Multihilo" />
+      <option name="PROGRAM_PARAMETERS" value="8000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UDP_ServidorMultihiloEncuesta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.servermultihilo.UDP_ServidorMultihiloEncuesta" />
+      <module name="PSP_UD3_UDP_Multihilo" />
+      <option name="PROGRAM_PARAMETERS" value="8000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.servermultihilo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -44,6 +105,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.UDP_ServidorMultihiloEncuesta" />
+      <item itemvalue="Application.UDP_Encuesta_cliente" />
+      <item itemvalue="Application.UDP_Encuesta_servidor" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UDP_Encuesta_cliente" />
+        <item itemvalue="Application.UDP_ServidorMultihiloEncuesta" />
+        <item itemvalue="Application.UDP_Encuesta_servidor" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -54,7 +127,32 @@
       <option name="presentableId" value="Default" />
       <updated>1702379014432</updated>
       <workItem from="1702379015537" duration="1000" />
+      <workItem from="1702380245725" duration="644000" />
     </task>
+    <task id="LOCAL-00001" summary="a">
+      <option name="closed" value="true" />
+      <created>1702380428529</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702380428529</updated>
+    </task>
+    <task id="LOCAL-00002" summary="a">
+      <option name="closed" value="true" />
+      <created>1702380459414</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702380459414</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
 </project>
